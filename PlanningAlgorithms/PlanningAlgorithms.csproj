@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.4.1" />
+    <PackageReference Include="PlanningDES" Version="1.0.0" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.0" />
+    <PackageReference Include="UltraDES" Version="2.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PlanningDES">
+      <HintPath>..\..\PlanningDES\PlanningDES\bin\Debug\netstandard2.0\PlanningDES.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
